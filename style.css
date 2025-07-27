@@ -38,13 +38,33 @@ p.caption {
 h2 {
   color: #FAFAFA;
   margin-top: 4%;
-  margin-bottom: 40px;
+  margin-bottom: 50px;
   text-align: center;
 }
 
 p.text {
   margin-top: 10px;
   margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+p.fact {
+  font-size: 35px;
+  text-align: center;
+  color: #fdaa38;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+p.source {
+  font-size: 15px;
+  text-align: center;
+  color: #FAFAFA;
+  margin-bottom: 40px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 nav {
