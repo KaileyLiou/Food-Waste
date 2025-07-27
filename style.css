@@ -73,6 +73,11 @@ h1.regular-heading {
 
 p.answers {
   text-align: center;
+  line-height: 1.5;
+}
+
+h2.question {
+  color: #fdaa38;
 }
 
 nav {
