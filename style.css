@@ -123,6 +123,14 @@ p.reg {
   text-align: center;
 }
 
+.app-text-last {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+
 nav {
   position: sticky;
   top: 0;
