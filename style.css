@@ -30,7 +30,6 @@ main {
 ul.nav-bar {
   list-style-type: none;
   overflow: hidden;
-  padding: 0.5em;
   background-color: #FAF9F6;
   position: sticky;
   top: 0;
@@ -38,12 +37,17 @@ ul.nav-bar {
 
 li.nav-tab {
   display: inline;
+  float: right;
+  padding: 5px;
 }
 
 li.nav-tab a {
     color: #4c6e4c;
-    font-size: 1.2em;
-    padding: 1em;
+    font-size: 15px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
 li.nav-tab a:hover {
