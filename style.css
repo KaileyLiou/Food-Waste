@@ -95,6 +95,19 @@ p.reg {
   padding-right: 30%;
 }
 
+.app1 {
+  border: none;
+  width: 30%;
+}
+
+.app2 {
+  border: solid;
+  width: 90%;
+  border-radius: 0;
+  border-color: #fdaa38;
+  border-width: 2px;
+}
+
 nav {
   position: sticky;
   top: 0;
