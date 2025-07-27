@@ -97,15 +97,30 @@ p.reg {
 
 .app1 {
   border: none;
-  width: 30%;
+  width: 20%;
 }
 
 .app2 {
   border: solid;
-  width: 90%;
+  width: 80%;
   border-radius: 0;
   border-color: #fdaa38;
-  border-width: 2px;
+  border-width: 3px;
+}
+
+.app-question {
+  color: #fdaa38;
+  font-weight: bold;
+  margin-top: 30px;
+  text-align: center;
+}
+
+.app-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
 }
 
 nav {
