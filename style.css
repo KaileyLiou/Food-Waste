@@ -67,6 +67,10 @@ p.source {
   margin-right: 15%;
 }
 
+h1.regular-heading {
+  text-align: center;
+}
+
 nav {
   position: sticky;
   top: 0;
