@@ -12,15 +12,15 @@ body {
 
 header {
   padding-top: 50px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   padding-left: 20%;
   padding-right: 20%;
   margin: 1px;
 }
 
 main {
-  margin-left: 50px;
-  margin-right: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
 }
 
 h1 {
@@ -35,36 +35,45 @@ p.caption {
   font-size: 15px;
 }
 
-p.text {
+h2 {
+  color: #FAFAFA;
+  margin-top: 4%;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+p.text {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+nav {
+  position: sticky;
+  top: 0;
 }
 
 ul.nav-bar {
   list-style-type: none;
   overflow: hidden;
   background-color: #FAF9F6;
-  position: sticky;
-  top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 li.nav-tab {
   display: inline;
   float: right;
-  padding: 5px;
+  padding: 10px;
 }
 
 li.nav-tab a {
-    color: #4c6e4c;
-    font-size: 20px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    padding-left: 15px;
-    padding-right: 15px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: bold;
+  color: #4c6e4c;
+  font-size: 17px;
+  padding-left: 15px;
+  padding-right: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 li.nav-tab a:hover {
@@ -74,11 +83,12 @@ li.nav-tab a:hover {
 
 img {
     display: block;
-    width: 30%;
+    width: 40%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 10px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     border-style: solid;
     border-color: #fdaa38;
     border-width: 5px;
