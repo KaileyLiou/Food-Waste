@@ -27,7 +27,7 @@ main {
   margin-right: 50px;
 }
 
-ul.navbar {
+ul.nav-bar {
   list-style-type: none;
   overflow: hidden;
   padding: 0.5em;
@@ -36,17 +36,29 @@ ul.navbar {
   top: 0;
 }
 
-li.navtab {
+li.nav-tab {
   display: inline;
 }
 
-li.navtab a {
+li.nav-tab a {
     color: #4c6e4c;
     font-size: 1.2em;
     padding: 1em;
 }
 
-li.navtab a:hover {
+li.nav-tab a:hover {
   background-color: #4c6e4c;
   color: #FAF9F6;
+}
+
+img {
+    display: block;
+    width: 30%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-color: #fdaa38;
+    border-width: 5px;
+    border-radius: 5%;
 }
