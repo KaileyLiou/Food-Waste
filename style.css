@@ -26,3 +26,27 @@ main {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+ul.navbar {
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0.5em;
+  background-color: #FAF9F6;
+  position: sticky;
+  top: 0;
+}
+
+li.navtab {
+  display: inline;
+}
+
+li.navtab a {
+    color: #4c6e4c;
+    font-size: 1.2em;
+    padding: 1em;
+}
+
+li.navtab a:hover {
+  background-color: #4c6e4c;
+  color: #FAF9F6;
+}
