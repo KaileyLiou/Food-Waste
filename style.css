@@ -8,15 +8,11 @@ body {
   font-family: "Funnel Display", sans-serif;
   font-size: 20px;
   color: #FAFAFA;
-
-}
-
-h1 {
-  color: #FAFAFA;
 }
 
 header {
   padding-top: 50px;
+  padding-bottom: 20px;
   padding-left: 20%;
   padding-right: 20%;
   margin: 1px;
@@ -25,6 +21,24 @@ header {
 main {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+h1 {
+  color: #FAFAFA;
+  padding-bottom: 20px;
+}
+
+p.caption {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+p.text {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 ul.nav-bar {
@@ -43,11 +57,14 @@ li.nav-tab {
 
 li.nav-tab a {
     color: #4c6e4c;
-    font-size: 15px;
-    padding-top: 14px;
-    padding-bottom: 14px;
+    font-size: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
     text-decoration: none;
     text-transform: uppercase;
+    font-weight: bold;
 }
 
 li.nav-tab a:hover {
@@ -61,6 +78,7 @@ img {
     height: auto;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     border-style: solid;
     border-color: #fdaa38;
     border-width: 5px;
