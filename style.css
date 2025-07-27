@@ -71,6 +71,10 @@ h1.regular-heading {
   text-align: center;
 }
 
+p.answers {
+  text-align: center;
+}
+
 nav {
   position: sticky;
   top: 0;
