@@ -76,6 +76,12 @@ p.answers {
   line-height: 1.5;
 }
 
+p.answer-last {
+  text-align: center;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
 h2.question {
   color: #fdaa38;
 }
