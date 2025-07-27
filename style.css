@@ -1,12 +1,28 @@
 * {
-   margin: 0px;
-   padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
- background-color: lightcyan; 
+  background-color: #4c6e4c;
+  font-family: "Funnel Display", sans-serif;
+  font-size: 20px;
+  color: #FAFAFA;
+
 }
 
 h1 {
-  color: navy;
+  color: #FAFAFA;
+}
+
+header {
+  padding-top: 50px;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin: 1px;
+}
+
+main {
+  margin-left: 50px;
+  margin-right: 50px;
 }
