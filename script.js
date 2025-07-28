@@ -32,11 +32,11 @@ var factList = [
 ];
 
 var fact = document.getElementById("fact");
-var myButton = document.getElementById("myButton");
+var factButton = document.getElementById("factButton");
 var count = 0;
 
-if (myButton) {
-  myButton.addEventListener("click", displayFact);
+if (factButton) {
+  factButton.addEventListener("click", displayFact);
 }
 
 function displayFact() {
