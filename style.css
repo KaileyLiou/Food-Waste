@@ -167,7 +167,7 @@ li.nav-tab a:hover {
 
 img {
   display: block;
-  width: 40%;
+  width: 100%;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -217,4 +217,21 @@ img {
   max-width: 600px;
   text-align: center;
   font-weight: bold;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.flex-item {
+  flex-basis: 100%;
+  margin: 1%;
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container {
+    flex-wrap: wrap;
+  }
 }
