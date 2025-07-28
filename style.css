@@ -235,3 +235,43 @@ img {
     flex-wrap: wrap;
   }
 }
+
+#factButton {
+  background: #4c6e4c;
+  border-style: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  color: #FAF9F6;
+  font-size: 1em;
+}
+
+#factButton:hover {
+  background-color: #e89a2a;
+}
+
+.factGen {
+  background: #FAF9F6;
+  border-radius: 10px;
+  border-style: none;
+  padding: 20px;
+  margin-top: 35px;
+  margin-left: 30%;
+  margin-right: 30%;
+  font-size: 1em;
+  text-align: center;
+  line-height: 1.5em;
+  color: #4c6e4c;
+  font-weight: bold;
+}
+
+.fact {
+  font-size: 35px;
+  text-align: center;
+  color: #fdaa38;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-left: 15%;
+  margin-right: 15%;
+}
