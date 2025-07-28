@@ -5,12 +5,17 @@ var typed = new Typed(".typing-header", {
     loop: true
 });
 
-var displayName = document.getElementById("name");
-var button = document.getElementById("myButton");
+var displayPledge = document.getElementById("pledgeReturned");
+var myButton = document.getElementById("myButton");
 
-button.addEventListener("click", showPledge);
+if(myButton) {
+    myButton.addEventListener("click", showPledge);
+}
 
 function showPledge() {
-  var text = document.getElementById("myText").value;
-  displayName.innerHTML = "I, " + text + " am committing to reducing food waste. This week, I will try to not waste " + food + " , and I will do that by " + action + ".";
+    var displayName = document.getElementById("name").value;
+    var food = document.getElementById("food").value;
+    var action = document.getElementById("action").value;
+    
+    displayPledge.innerHTML = "I, " + displayName + " am committing to reducing food waste. This week, I will try to not waste " + food + " , and I will do that by " + action + ".";
 }
