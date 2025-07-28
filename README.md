@@ -1,4 +1,4 @@
-#Food Waste Website
+# Food Waste Website
 
 https://kaileyliou.github.io/Food-Waste/index.html
 
