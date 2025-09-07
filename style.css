@@ -18,20 +18,6 @@ header {
   margin: 1px;
 }
 
-img:hover {
-  transform: scale(1.05);
-  transition: transform 0.3s;
-}
-
-img :active {
-  transform: scale(0.95);
-  transition: transform 0.1s;
-}
-
-img:focus {
-  outline: 2px solid #fdaa38;
-}
-
 main {
   padding-left: 20%;
   padding-right: 20%;
