@@ -16,18 +16,14 @@ header {
   padding-left: 20%;
   padding-right: 20%;
   margin: 1px;
-  text-align: center;
-  background-color: #4c6e4c;
-  border-bottom: solid;
-  border-color: #fdaa38;
-  border-width: 5px;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 main {
   padding-left: 20%;
   padding-right: 20%;
+  margin: 1px;
+  padding-bottom: 50px;
+  padding-top: 20px;
 }
 
 h1 {
