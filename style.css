@@ -7,20 +7,7 @@ body {
   background-color: #4c6e4c;
   font-family: "Funnel Display", sans-serif;
   font-size: 20px;
-  color: #FAFAFA;
-  line-height: 1.6;
-  letter-spacing: 0.5px;
-  word-spacing: 1px;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-rendering: optimizeLegibility;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -moz-text-size-adjust: 100%;
-  -o-text-size-adjust: 100%;
-  box-sizing: border-box;
+  color: #FAFAFA;  
 }
 
 header {
